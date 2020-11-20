@@ -1,5 +1,5 @@
 {
-  "name": "jspurefix",
+  "name": "@niklasz/jspurefix",
   "version": "1.0.14",
   "description": "pure node js fix engine",
   "keywords": [
