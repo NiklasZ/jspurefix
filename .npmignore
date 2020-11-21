@@ -5,5 +5,4 @@ datax/examples/FIX.4.4/fix.txt
 data/examples/FIX.4.4/fix.json
 src/dict-parser.ts
 src/test
-dist
 jest.config.js

@@ -1,6 +1,6 @@
 {
   "name": "@niklasz/jspurefix",
-  "version": "1.0.14",
+  "version": "1.0.14.3",
   "description": "pure node js fix engine",
   "keywords": [
     "typescript",

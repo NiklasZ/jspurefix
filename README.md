@@ -1,4 +1,4 @@
-> This is a custom fork to remove a conflicting dependency.
+> This is a custom fork to remove a conflicting dependency. Please use https://www.npmjs.com/package/jspurefix instead.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/2w2eag4trnijg5d3?svg=true)](https://ci.appveyor.com/project/TimelordUK/jsfix)
 [![Build Status](https://travis-ci.org/TimelordUK/jspurefix.svg?branch=master)](https://travis-ci.org/TimelordUK/jspurefix)
