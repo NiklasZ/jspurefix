@@ -79,7 +79,7 @@ test('encode heartbeat', async () => {
   expect(res.event).toEqual('msg')
   expect(res.msgType).toEqual('0')
   const len = res.view.getTyped(Tags.BodyLengthTag)
-  const expected = fix.length - '8=FIX4.4|9=0000081|'.length - '10=159|'.length
+  const expected = fix.length - '8=FIX4.4|9=000081|'.length - '10=159|'.length
   expect(len).toEqual(expected)
 })
 

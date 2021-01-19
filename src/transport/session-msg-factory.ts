@@ -152,7 +152,7 @@ export class SessionMsgFactory implements ISessionMsgFactory {
     const description = this.description
     const o: IStandardHeader = {
       BeginString: description.BeginString,
-      BodyLength: 9999999,
+      BodyLength: 999999,
       MsgType: msgType,
       SenderCompID: description.SenderCompId,
       MsgSeqNum: seqNum,

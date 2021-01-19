@@ -1,3 +1,6 @@
+
+> NOTE: this is a forked version of jspurefix 1.0.16 that uses a 6 digit BodyLength (tag 9) to meet a particular acceptor's needs. Please use https://www.npmjs.com/package/jspurefix instead.
+
 # jspurefix
 
 [![Build status](https://ci.appveyor.com/api/projects/status/2w2eag4trnijg5d3?svg=true)](https://ci.appveyor.com/project/TimelordUK/jsfix)
