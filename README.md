@@ -1,5 +1,5 @@
 
-> NOTE: this is a forked version of jspurefix 1.0.16 that uses a 6 digit BodyLength (tag 9) to meet a particular acceptor's needs. Please use https://www.npmjs.com/package/jspurefix instead.
+> NOTE: this is a forked version of jspurefix 1.0.16 that uses a few customisations for compatibility. Please use https://www.npmjs.com/package/jspurefix instead.
 
 # jspurefix
 

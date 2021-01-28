@@ -1,5 +1,5 @@
 {
-  "name": "jspurefix",
+  "name": "@niklasz/jspurefix",
   "version": "1.0.17",
   "description": "pure node js fix engine",
   "keywords": [
@@ -26,12 +26,12 @@
     "test": "jest",
     "cmd": "cd dist && node jsfix-cmd",
     "repo44": "cd dist && node jsfix-cmd --dict=repo44",
-    "repo44-unit": "cd dist && node jsfix-cmd --dict=repo44 --generate --density=0.8 --unit --delimiter=\"|\" --session=data/session/test-initiator.json",
-    "repo44-script": "cd dist && node jsfix-cmd --dict=repo44 --generate --density=0.8 --script --delimiter=\"|\" --session=data/session/test-initiator.json",
-    "repo44-replay": "cd dist && node jsfix-cmd --dict=repo44 --fix=data/examples/FIX.4.4/fix.txt --delimiter=\"|\" --session=data/session/test-initiator.json",
+    "repo44-unit": "cd dist && node jsfix-cmd --dict=repo44 --generate --density=0.8 --unit --delimiter=\"|\"",
+    "repo44-script": "cd dist && node jsfix-cmd --dict=repo44 --generate --density=0.8 --script --delimiter=\"|\" ",
+    "repo44-replay": "cd dist && node jsfix-cmd --dict=repo44 --fix=data/examples/FIX.4.4/fix.txt --delimiter=\"|\"",
     "repo44-repscr": "cd dist && node jsfix-cmd --dict=repo44 --fix=dist/fix.txt --delimiter=\"|\" --stats",
     "repo44-bench": "cd dist && node jsfix-cmd --dict=repo44 --benchmark --delimiter=\"|\"",
-    "repo44-bench-er": "cd dist && node jsfix-cmd --dict=repo44 --fix=data/examples/FIX.4.4/repo/execution-report/fix.txt --benchmark --delimiter=\"|\" --repeats=125000",
+    "repo44-bench-er": "cd dist && node jsfix-cmd --dict=repo44 --fix=data/examples/FIX.4.4/repo/execution-report/fix.txt --benchmark --delimiter=\"|\" --repeats=250000",
     "repo44-bench-tc": "cd dist && node jsfix-cmd ---dict=repo44 --fix=data/examples/FIX.4.4/repo/trade-capture/fix.txt --benchmark --delimiter=\"|\" --repeats=30000",
     "repo44-bench-sd": "cd dist && node jsfix-cmd --dict=repo44 --fix=data/examples/FIX.4.4/repo/security-definition/fix.txt --benchmark --delimiter=\"|\" --repeats=150000",
     "qf-bench-lo": "cd dist && node jsfix-cmd --session=data/session/test-initiator.json --fix=data/examples/FIX.4.4/quickfix/logon/fix.txt --benchmark --delimiter=\"|\" --repeats=250000",
@@ -76,10 +76,10 @@
   "devDependencies": {
     "@types/express": "^4.17.9",
     "@types/jest": "^26.0.15",
-    "@types/lodash": "^4.14.168",
+    "@types/lodash": "^4.14.165",
     "@types/mathjs": "^6.0.7",
     "@types/minimist": "^1.2.1",
-    "@types/node": "^14.14.22",
+    "@types/node": "^14.14.9",
     "@types/request-promise": "^4.1.46",
     "@types/sax": "^1.2.1",
     "@types/uuid": "^3.4.7",
@@ -90,6 +90,6 @@
     "ts-jest": "^26.4.4",
     "tslint": "^6.1.3",
     "tslint-config-standard": "^9.0.0",
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.2"
   }
 }
